@@ -5,7 +5,7 @@
   "kind": "module",
   "lifecycle": "accepted",
   "created": "2026-10-07",
-  "updated": "2026-10-08T14:39:00Z",
+  "updated": "2026-10-27T16:57:58Z",
   "moduleState": "implemented",
   "parent": "note://d2499d5b-4ceb-4d46-aa3b-18e5c9b86034/6be08bc0-2ac5-4638-8263-cf9883c7cdae"
 }
@@ -26,3 +26,5 @@ Use scripts/sync-harness-rules.mjs with an explicit repository list. WorkflowX, 
 [Readiness review](../../../docs/reviews/workflowx-v2.md) findings are repaired and source regressions pass. Teammate files now use managed blocks; unmarked existing files require a merge and fail synchronization without being overwritten. Source rules and downstream integration pass independent local acceptance; exact revisions, historical evidence qualifications and the separate release/push boundary are recorded in the [agentX then JanusX adoption Task](tasks/sync-adopters.md).
 
 [README demonstration refresh](requirements/readme-demo.md) is required before final release after integration stabilizes.
+
+Public plugin metadata and installation guidance use https://github.com/TreeX-xx/WorkFlowX . The account migration preserves Git history, plugin names, standard identity and original license attribution. Source configuration alone does not prove the new repository has been uploaded or the plugin installed.

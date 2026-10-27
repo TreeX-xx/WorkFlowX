@@ -94,7 +94,7 @@ Main Agent works directly by default with engineeringX and self-review. Delegati
 
 | Platform | How to install |
 |---|---|
-| **Claude Code** | `/plugin marketplace add https://github.com/TreeX-X/workflowX` → `/plugin install workflowx` |
+| **Claude Code** | `/plugin marketplace add https://github.com/TreeX-xx/WorkFlowX` → `/plugin install workflowx` |
 | **OpenAI Codex** | `/plugins` → search `workflowx` → Install Plugin |
 | **Manual** | Copy `.claude/` or `.codex/` into the project root |
 
@@ -142,7 +142,7 @@ For `xflow implement user login`, the workflow is:
 
 ### Directory and maintenance example
 
-Each module has one `module.md`; parent-level topics coexist with submodules. This structure matches the desktop recording in section 07 of the [JanusX README](https://github.com/TreeX-X/JanusX#readme):
+Each module has one `module.md`; parent-level topics coexist with submodules. This structure matches the desktop recording in section 07 of the [JanusX README](https://github.com/TreeX-xx/JanusX#readme):
 
 ```text
 .agents/notes/
@@ -297,10 +297,10 @@ If this helps you, a star helps more people discover and test the workflow.
 
 ## Star History
 
-<a href="https://www.star-history.com/#TreeX-X/workflowX&Date">
+<a href="https://www.star-history.com/#TreeX-xx/WorkFlowX&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TreeX-X/workflowX&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=TreeX-X/workflowX&type=date&theme=dark&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TreeX-X/workflowX&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TreeX-xx/WorkFlowX&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=TreeX-xx/WorkFlowX&type=date&theme=dark&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TreeX-xx/WorkFlowX&type=date&theme=dark&legend=top-left" />
  </picture>
 </a>

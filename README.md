@@ -95,7 +95,7 @@ Main Agent 默认直接工作，engineeringX 提供实现原则与自审。需�
 
 | 平台 | 安装方式 |
 |---|---|
-| **Claude Code** | `/plugin marketplace add https://github.com/TreeX-X/workflowX` → `/plugin install workflowx` |
+| **Claude Code** | `/plugin marketplace add https://github.com/TreeX-xx/WorkFlowX` → `/plugin install workflowx` |
 | **OpenAI Codex** | `/plugins` → 搜索 `workflowx` → Install Plugin |
 | **手动部署** | 把 `.claude/` 或 `.codex/` 拷进项目根目录 |
 
@@ -143,7 +143,7 @@ xdo 实现用户登录功能，支持邮箱密码和 OAuth
 
 ### 目录与维护示例
 
-每个模块只有一份 `module.md`，父层主题与子模块共存。以下结构与 [JanusX README](https://github.com/TreeX-X/JanusX#readme) 第 07 项桌面录制一致：
+每个模块只有一份 `module.md`，父层主题与子模块共存。以下结构与 [JanusX README](https://github.com/TreeX-xx/JanusX#readme) 第 07 项桌面录制一致：
 
 ```text
 .agents/notes/
@@ -298,10 +298,10 @@ WorkflowX 是一个真实投入社区使用的开源实验项目，目标是探�
 
 ## 星级历史
 
-<a href="https://www.star-history.com/#TreeX-X/workflowX&Date">
+<a href="https://www.star-history.com/#TreeX-xx/WorkFlowX&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TreeX-X/workflowX&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=TreeX-X/workflowX&type=date&theme=dark&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TreeX-X/workflowX&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TreeX-xx/WorkFlowX&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=TreeX-xx/WorkFlowX&type=date&theme=dark&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TreeX-xx/WorkFlowX&type=date&theme=dark&legend=top-left" />
  </picture>
 </a>
