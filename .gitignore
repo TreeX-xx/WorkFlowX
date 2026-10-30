@@ -19,3 +19,8 @@ node_modules/
 
 # Local agent runtime state
 .agents/.local/
+
+# Vendored huashu-design skill — local only, never uploaded.
+# Installed/updated by hand from github.com/alchaincyf/huashu-design.
+.claude/skills/huashu-design/
+.codex/skills/huashu-design/
