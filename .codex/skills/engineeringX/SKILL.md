@@ -5,30 +5,14 @@ description: Lightweight implementation principles and self-review checklist for
 
 # engineeringX
 
-Use these principles when implementing or modifying code.
+Use this checklist during implementation and self-review.
 
-## Implementation Principles
+1. **Scope.** Confirm the goal and clarify ambiguities that materially affect the result. Make the smallest change that fully solves the problem. Follow project patterns, naming, and tools, and tie each change to a requirement or necessary constraint.
+2. **Implementation.** Reuse existing modules and keep responsibilities clear. Split code when it clarifies ownership, isolates change, or removes meaningful duplication. Keep the execution path easy to follow and avoid speculative abstractions, state, configuration, and dependencies.
+3. **Tests.** Reuse existing coverage and extend existing test files where practical. Add tests only when requested, required by the project, or needed to catch a concrete regression that existing tests miss. Avoid duplicate cases and unnecessary fixtures or scaffolding. Use the fastest reliable check that proves the behavior. Reserve slow cases for required coverage or behavior that faster checks cannot verify.
+4. **Verification.** Review the diff for scope, boundary and failure handling, and stale imports, references, or configuration. Report actual checks with the target path, scope or count, command when applicable, and result. Distinguish manual review from machine evidence, label unrun checks `not-run`, and state unresolved gaps. Claim a pass only for a check that ran and passed.
 
-- Understand the goal and scope before editing; do not guess about critical ambiguity.
-- Make the smallest change that solves the stated problem.
-- Prefer the simplest clear solution; avoid speculative abstractions, state, configuration, and dependencies.
-- Follow existing project patterns, naming, and tools.
-- Keep every change traceable to the requirement or a necessary constraint.
-- For Task-bound work, cite the contract hash and fixed acceptance revisions; ordinary xdo does not create a contract merely to report results.
-- Record unrun checks as not-run and label manual vs machine evidence; never mark a check passed unless it ran.
+## When applicable
 
-## Self-Review
-
-Before reporting completion, inspect the result and ask:
-
-- Does it solve the requested problem?
-- Did the change exceed scope?
-- Can any code, state, branch, or dependency be removed?
-- Is the implementation path short and easy to understand?
-- Are obvious boundaries and failures handled?
-- Are stale imports, references, or configuration entries left behind?
-- What verification was actually performed?
-- If this change carries a lasting trade-off: are cost, limits, and revisit signals written into the Note (new or in-place sync)?
-- Is verification pinned to a path, a magnitude, and a command, not "looks fine"?
-
-Report unresolved concerns explicitly.
+- For Task-bound work, cite the contract hash and fixed acceptance revisions. Ordinary xdo needs no reporting contract.
+- For a lasting trade-off, use noteX to record the cost, limits, and conditions for revisiting it in the owning Note.
